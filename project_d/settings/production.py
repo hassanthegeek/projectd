@@ -18,8 +18,11 @@ ALLOWED_HOSTS = allowed_hosts.split(',')
 DEBUG = False
 STATIC_ROOT = env('STATIC_ROOT')
 
+# ==================================================
+# becareful when using these settings especially  ||
+# SECURE_HSTS_SECONDS related settings            ||
+# ==================================================
 
-# IGNORE THESE SETTINGS if you are
 SESSION_COOKIE_SECURE=True
 CSRF_COOKIE_SECURE=True
 SECURE_SSL_REDIRECT=True
