@@ -1,3 +1,3 @@
-/home/ubuntu/work/project_d/venv/bin/python /home/ubuntu/work/project_d/manage.py collectstatic --noinput
-/home/ubuntu/work/project_d/venv/bin/python /home/ubuntu/work/project_d/manage.py migrate
-/home/ubuntu/work/project_d/venv/bin/python -m gunicorn --chdir /home/ubuntu/work/project_d/ project_d.wsgi:application -b 0.0.0.0:8000
+/home/ubuntu/work/projectd/venv/bin/python /home/ubuntu/work/projectd/manage.py collectstatic --noinput
+/home/ubuntu/work/projectd/venv/bin/python /home/ubuntu/work/projectd/manage.py migrate
+/home/ubuntu/work/projectd/venv/bin/python -m gunicorn --chdir /home/ubuntu/work/projectd/ project_d.wsgi:application -b 127.0.0.1:8000
