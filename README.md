@@ -1,0 +1,1 @@
+This is just a demo django project that one can use to practice deploying django application. It has different settings file for local and production environment. And as this project is just for the demonstration purpose I am using the sqlite database in it.
